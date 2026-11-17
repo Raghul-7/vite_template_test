@@ -4,8 +4,10 @@ import './index.css'
 import App from './App.tsx'
 import { AanswerProvider } from '@aanswer/react'
 
-const widgetKey = import.meta.env.VITE_AANSWER_WIDGET_KEY || ''
-const host = import.meta.env.VITE_AANSWER_HOST || undefined
+const widgetKey =
+  import.meta.env.VITE_AANSWER_WIDGET_KEY ||
+  'cwk_7e089d6eacc244e7d1ac1655fcc1d52b158741b8a300bf2e'
+const host = import.meta.env.VITE_AANSWER_HOST || 'https://ast.re.cx'
 
 if (!widgetKey && import.meta.env.DEV) {
   console.warn(
