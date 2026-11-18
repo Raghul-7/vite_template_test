@@ -6,7 +6,7 @@ import { AanswerProvider } from '@aanswer/react'
 
 const widgetKey =
   import.meta.env.VITE_AANSWER_WIDGET_KEY
-const host = import.meta.env.VITE_AANSWER_HOST || 'https://ast.re.cx'
+const host = import.meta.env.VITE_AANSWER_HOST
 
 if (!widgetKey) {
   throw new Error(
