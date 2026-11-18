@@ -5,7 +5,7 @@ import App from './App.tsx'
 import { AanswerProvider } from '@aanswer/react'
 
 const widgetKey = 'cwk_86d8f29e74d0a588e638742914225ed64ac8d22957bd48b1'
-const host = 'http://localhost:3000'
+const host = 'https://ast.re.cx/'
 
 if (!widgetKey && import.meta.env.DEV) {
   console.warn(
